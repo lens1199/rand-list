@@ -1,0 +1,22 @@
+.itemContainer {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: .25rem 1rem !important;
+}
+
+.closeButton {
+  color: #AAA;
+  background-color: transparent;
+  border: 0;
+  margin-right: 10px;
+}
+
+.closeButton:hover {
+  color: #000;
+}
+
+.randRange {
+  color: #CCC;
+  font-size: .8rem;
+}
