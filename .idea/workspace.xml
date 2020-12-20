@@ -4,7 +4,10 @@
     <list default="true" id="165b9ae6-0dfc-4428-b427-90ee051edc65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ItemButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResultPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResultPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -101,29 +104,37 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2329" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608209673640" />
-    <state width="1825" height="292" key="GridCell.Tab.0.bottom" timestamp="1608441215754">
+    <state x="2158" y="97" width="865" height="919" key="CommitChangelistDialog2" timestamp="1608471940692">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1825" height="292" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608441215754" />
-    <state width="1825" height="292" key="GridCell.Tab.0.center" timestamp="1608441215754">
+    <state x="2158" y="97" width="865" height="919" key="CommitChangelistDialog2/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608471940692" />
+    <state width="1825" height="237" key="GridCell.Tab.0.bottom" timestamp="1608471931177">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1825" height="292" key="GridCell.Tab.0.center/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608441215754" />
-    <state width="1825" height="292" key="GridCell.Tab.0.left" timestamp="1608441215754">
+    <state width="1825" height="237" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608471931177" />
+    <state width="1825" height="237" key="GridCell.Tab.0.center" timestamp="1608471931177">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1825" height="292" key="GridCell.Tab.0.left/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608441215754" />
-    <state width="1825" height="292" key="GridCell.Tab.0.right" timestamp="1608441215754">
+    <state width="1825" height="237" key="GridCell.Tab.0.center/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608471931177" />
+    <state width="1825" height="237" key="GridCell.Tab.0.left" timestamp="1608471931176">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1825" height="292" key="GridCell.Tab.0.right/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608441215754" />
+    <state width="1825" height="237" key="GridCell.Tab.0.left/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608471931176" />
+    <state width="1825" height="237" key="GridCell.Tab.0.right" timestamp="1608471931177">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1825" height="237" key="GridCell.Tab.0.right/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608471931177" />
+    <state x="2428" y="215" width="325" height="684" key="RollbackChangesDialog" timestamp="1608450991283">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2428" y="215" width="325" height="684" key="RollbackChangesDialog/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608450991283" />
     <state x="2085" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1608203560437">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2085" y="188" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608203560437" />
-    <state x="2244" y="265" width="704" height="576" key="find.popup" timestamp="1608435784930">
+    <state x="2244" y="265" width="863" height="642" key="find.popup" timestamp="1608454659087">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2244" y="265" width="704" height="576" key="find.popup/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608435784930" />
+    <state x="2244" y="265" width="863" height="642" key="find.popup/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608454659087" />
   </component>
 </project>

@@ -14,7 +14,7 @@ const ItemButtons = () => {
         </Col>
       </Row>
 
-      <Row className={"mt-2"}>
+      <Row className={"mt-4"}>
         <Col>
           <Button variant={"outline-danger"} onClick={removeAllItems} block>Clear</Button>
         </Col>

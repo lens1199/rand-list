@@ -4,13 +4,14 @@ import './ResultPanel.css';
 import { Col, Row } from "react-bootstrap";
 
 const ResultPanel = () => {
-  const {items, result, itemIndex} = useContext(ItemsContext);
-  if (itemIndex === undefined || itemIndex >= items.length) return null;
+  const {items, randResult} = useContext(ItemsContext);
+  const {value, index} = randResult;
+  if (index === undefined || value === undefined || index >= items.length) return null;
 
-  const item = items[itemIndex];
+  const item = items[index];
   const itemName = item.name;
-  const regionStart = itemIndex > 0 ? items[itemIndex - 1].range : 0;
-  const regionEnd = items[itemIndex].range;
+  const regionStart = index > 0 ? items[index - 1].range : 0;
+  const regionEnd = items[index].range;
 
   let itemSymbol = itemName[0].toUpperCase();
   if (itemName.length > 1) itemSymbol += itemName[1].toLowerCase();
@@ -24,13 +25,13 @@ const ResultPanel = () => {
       <Col xs={12}>
         <div className={"resultContainer"}>
           <div className={"top fullwidth"}>
-            {itemIndex}
+            {index}
           </div>
 
           <div className={"body fullWidth"}>
             <div className={"itemSymbol"}>{itemSymbol}</div>
             <div className="itemName">{itemName}</div>
-            <small className="resultText">{result}</small>
+            <small className="resultText">{value}</small>
           </div>
 
           <div className="bottom fullWidth">
