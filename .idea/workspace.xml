@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="165b9ae6-0dfc-4428-b427-90ee051edc65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ItemAdder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ItemButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ItemList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ItemList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ItemsContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResultPanel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResultPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +48,18 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -81,6 +72,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608203167997</updated>
       <workItem from="1608203170079" duration="7965000" />
-      <workItem from="1608435194065" duration="5137000" />
+      <workItem from="1608435194065" duration="6390000" />
     </task>
     <servers />
   </component>
@@ -105,22 +101,22 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2329" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608209673640" />
-    <state width="1825" height="222" key="GridCell.Tab.0.bottom" timestamp="1608437197602">
+    <state width="1825" height="292" key="GridCell.Tab.0.bottom" timestamp="1608441215754">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1825" height="222" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608437197602" />
-    <state width="1825" height="222" key="GridCell.Tab.0.center" timestamp="1608437197602">
+    <state width="1825" height="292" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608441215754" />
+    <state width="1825" height="292" key="GridCell.Tab.0.center" timestamp="1608441215754">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1825" height="222" key="GridCell.Tab.0.center/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608437197602" />
-    <state width="1825" height="222" key="GridCell.Tab.0.left" timestamp="1608437197601">
+    <state width="1825" height="292" key="GridCell.Tab.0.center/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608441215754" />
+    <state width="1825" height="292" key="GridCell.Tab.0.left" timestamp="1608441215754">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1825" height="222" key="GridCell.Tab.0.left/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608437197601" />
-    <state width="1825" height="222" key="GridCell.Tab.0.right" timestamp="1608437197602">
+    <state width="1825" height="292" key="GridCell.Tab.0.left/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608441215754" />
+    <state width="1825" height="292" key="GridCell.Tab.0.right" timestamp="1608441215754">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1825" height="222" key="GridCell.Tab.0.right/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608437197602" />
+    <state width="1825" height="292" key="GridCell.Tab.0.right/1600.0.1920.1080/0.27.1600.873@1600.0.1920.1080" timestamp="1608441215754" />
     <state x="2085" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1608203560437">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
