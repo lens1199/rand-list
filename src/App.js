@@ -53,6 +53,7 @@ const App = () => {
 
   const context = {
     items: itemList,
+    setItems: setItemList,
     randResult,
     addItem,
     removeItemByIndex,
